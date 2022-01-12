@@ -1,0 +1,49 @@
+@media screen and (max-width:500px){
+    .card1{
+        width:100%;
+        /* display:block; */
+        padding:0px;
+        margin:0px;
+
+        /* margin:2px 4px; */
+        /* grid-template-columns:100%; */
+    }
+    .flexs{
+        display:block;
+        width:100%;
+    }
+    .flexs img{
+        /* margin-left:calc(center-10px); */
+    justify-content: center;
+    height:auto;
+    width:80%;
+    margin-left:25px;
+    }
+    .card2{
+        grid-template-columns: auto;
+        margin:0px;
+    }
+    .disp{
+        display:block;
+        
+    }
+    iframe{
+        width:100%;
+        margin:auto;
+        height:200px;
+    }
+    .card3{
+        grid-template-columns: auto;
+        margin:0px;
+        max-width: max-content;
+        padding:0px;
+    }
+.talent{grid-template-columns:auto;
+margin:calc(100%-width);
+
+/* width:max-content; */
+}
+.vid{display:block;}
+
+
+}
