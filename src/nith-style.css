@@ -155,3 +155,131 @@ grid-template-columns:auto auto;
 .niii{
     text-align:center
 }
+
+.slid{
+    background-image:url('https://static.wixstatic.com/media/7a80d103056d491895f4d6be5be211ef.jpg/v1/fill/w_1225,h_488,al_c,q_85,usm_0.66_1.00_0.01/7a80d103056d491895f4d6be5be211ef.jpg');
+    background-size:cover;
+    padding:100px;
+    margin:20px;
+}
+
+.event{
+    background-color: yellow;
+    padding:100px;
+    
+}
+.slid h1{
+    color:white;
+
+}
+.card23{
+    max-width:700px;
+    display:grid;
+    grid-template-rows: auto;
+    /* grid-template-columns: 1fr 3fr 1fr; */
+    grid-gap:2rem;
+    padding:10px;
+   /* background-color: chartreuse; */
+    margin:0px auto;
+}
+.carddd{
+    background-color: lightgray;
+    border:2px solid grey;
+}
+.carddd h2{
+    text-align: center;
+    padding:6px;
+
+}
+.carddd p{
+    text-align: justify;
+    padding:5px;
+    margin:4px;
+}
+.n{
+    display:grid;
+grid-template-columns: 0.5fr 2fr 1fr;}
+.np{
+    padding:10px 0px;
+}
+.pp{
+    /* margin:auto; */
+    /* width:fit-content; */
+    max-width:250px;
+}
+.pp p{
+    padding:5px;
+text-align: justify;}
+.contain{
+    margin:auto;
+    padding:20px;
+    min-width:fit-content;
+}
+.contain h1{
+    padding:10px;
+    margin:15px;
+    text-align:center;
+}
+.card6{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    margin:auto;
+    min-width:auto;
+
+    max-width:700px;
+    min-height:85vh;
+
+}
+.displa{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding:10px;
+    margin:14px;
+    text-align: center;
+}
+.card6 h1{
+    margin:0px auto;
+    text-align: center;
+}
+.displa a{
+    padding:11px;
+}
+
+.card7{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    margin:auto;
+    min-width:auto;
+
+    max-width:700px;
+    min-height:85vh;
+
+}
+.im img{
+    width:250px;
+    height:180px;
+}
+
+.carr{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 33%;
+    margin:auto;
+    /* display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    
+}
+.cards{
+    flex-grow: 1;
+
+    /* flex:0 0 0 250px; */
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    max-width: 250px;
+
+}

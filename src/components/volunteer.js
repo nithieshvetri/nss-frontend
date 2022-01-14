@@ -47,7 +47,7 @@ const disp=talent.map((x,index)=>{
 })
     return (
         <div className="container">
-            <div className="card1">
+            <div className="card1" style={{width:'33'}}>
                 {disp}
             </div>
         </div>

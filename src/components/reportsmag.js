@@ -23,7 +23,11 @@ const Report=()=>{
     const dis=rep.map((x,index)=>{
         return (
             <div key={index}>
-                <a iframe="true" id="pdf-js-viewer"  target="_blank" href={`${x.file}`} > vjef k</a>
+                <a iframe="true" id="pdf-js-viewer"  target="_blank" href={x.file+"#toolbar=0"} >
+                <img src="https://static.wixstatic.com/media/d32015_2e37764e6ad94ac9a581759ff2c6d1d0~mv2.png/v1/fill/w_180,h_150,al_c,lg_1,q_85/logo_edited.webp" alt="logo" />
+
+                </a>
+                <h1>{x.year}</h1>
             </div>
 
         )
@@ -32,16 +36,31 @@ const Report=()=>{
     const maa=mag.map((x,index)=>{
         return (
             <div key={index}>
-                <a iframe="true" id="pdf-js-viewer"  target="_blank" href={`${x.file}`} >pdf</a>
+                <a iframe="true" id="pdf-js-viewer"  target="_blank" href={x.file+"#toolbar=0"} >
+                    <img src="https://static.wixstatic.com/media/d32015_2e37764e6ad94ac9a581759ff2c6d1d0~mv2.png/v1/fill/w_180,h_150,al_c,lg_1,q_85/logo_edited.webp" alt="logo" />
+                </a>
+                <h1>{x.year}</h1>
             </div>
 
         )
     })
     return (
-        <div>
-            <h1>REPORT</h1>{dis}
-            <br/>
-            <h1>MAGAZINE</h1>{maa}</div>
+        <div className="container">
+            <div className="contain">
+            <div className="c card7">
+                    <h1>REPORTS</h1>
+                    <div className="displa" >
+                {dis}
+                </div>
+                <br/>
+                <h1>MAGAZINE</h1>
+                <div className="displa">
+
+                {maa}
+            </div>
+            </div>
+            
+            </div> </div>
     )
 }
 export default Report;

@@ -13,8 +13,11 @@ import Advisory from './components/commit';
 
 import Calender from './components/calender';
 import Volunteer from './components/volunteer';
-import Slide from './components/Home/Slide';
+// import Slide from './components/Home/Slide';
 import Content from './components/Home/Content';
+import Committe from './components/commitee';
+import Awards from './components/awards';
+import Asset from './components/assest';
 
 const App=()=>{
     return (
@@ -27,8 +30,12 @@ const App=()=>{
     <Route path="/camp" element={<Camp/>} />
     <Route path="/blood" element={<Blood/>} />
     <Route path="/sem" element={<Sem/>} />
-    <Route path="/report" element={<><Calender/><Report/></>} />
+    <Route path="/report" element={<Report/>} />
     <Route path="/vt" element={<Volunteer/>} />
+    <Route path="/ac" element={<Committe/>} />
+    <Route path="/awards" element={<Awards/>} />
+    <Route path="/assest" element={<Asset/>} />
+
 
 
 </Routes>

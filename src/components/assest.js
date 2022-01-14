@@ -12,11 +12,13 @@ const Asset=()=>{
         };
         asse()
     },[])
-    if(data)
-    console.log(data[0].file);
+    if(data.length!==0){
+    console.log(data[0].file);}
     return (
-        <div>
-            {data?<iframe src={data.file} width="800" height="600"></iframe>:null}
+        <div className="container">
+            <div className="card1" style={{minWidth:'75%',marginBottom:'0px'}}>
+            {data[0]?<iframe src={data[0].file+"#toolbar=0"} style={{width: '100%',height: '100vh'}} ></iframe>:null}
+        </div>
         </div>
     )
 }

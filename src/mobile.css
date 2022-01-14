@@ -44,6 +44,26 @@ margin:calc(100%-width);
 /* width:max-content; */
 }
 .vid{display:block;}
-
+.card6{
+    display:block;
+}
+.card6 img{
+    display:block;
+    margin:0px auto;
+    /* width:50%; */
+}
+.displa{
+    display:block;
+    
+}
+.n{
+    grid-template-columns:0.4fr 2fr ;
+}
+.np{
+    margin:0 100%;
+    width:100%;
+    display:block;
+    text-align:center;
+}
 
 }

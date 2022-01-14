@@ -53,7 +53,6 @@ console.log(props.width1)
 
     return (
         <div className="nith" style={{position:'relative',border:`${props.border1}`,margin:`${props.margin1}`}}>
-            {/* <button onClick={setX(x+1)}>n k</button> */}
             <div>
                 <p  onClick={handlerLeft}style={{margin:'10px',position:'absolute',top:'250px',left:'10px',color:'lightblue'}}><BsArrowLeftCircleFill size={50}
  /></p>
