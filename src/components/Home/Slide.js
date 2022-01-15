@@ -10,7 +10,7 @@ const [x,setX]=useState(0)
 useEffect(()=>{
     setX(0)
     const res=async()=>{
-        const {data}=await axios.get(`http://127.0.0.1:8000/api/${props.api}/`);
+        const {data}=await axios.get("http://127.0.0.1:8000/api/home/");
         console.log(data)
         setImage(data)
     };
@@ -52,15 +52,15 @@ setX(image.length-1)
 console.log(props.width1)
 
     return (
-        <div className="nith" style={{position:'relative',border:`${props.border1}`,margin:`${props.margin1}`}}>
+        <div className="home" >
             <div>
-                <p  onClick={handlerLeft}style={{margin:'10px',position:'absolute',top:'250px',left:'10px',color:'lightblue'}}><BsArrowLeftCircleFill size={50}
+                <p className="arrow l" onClick={handlerLeft}><BsArrowLeftCircleFill size={50}
  /></p>
             {image.length>0?
             
-            <img src={image[x].image}  style={{width:`${props.width1}`,height:'550px'}}alt="bbj" />
+            <img src={image[x].image}  alt="bbj" />
             :null}
-                <p  onClick={handlerRight} style={{margin:'10px',position:'absolute',top:'250px',right:'10px',color:'lightblue'}}><BsArrowRightCircleFill size={50}
+                <p className="arrow r" onClick={handlerRight} ><BsArrowRightCircleFill size={50}
 /></p>
         </div>
         

@@ -51,26 +51,28 @@ const Event=(props)=>{
     }
     
     
-    console.log("ghru",even)
     
         return (
-            <div className="nith" style={{position:'relative',border:'2px solod black',margin:'auto',width:'75%'}}>
+            <div className="nith" >
                 {/* <button onClick={setX(x+1)}>n k</button> */}
                 <div>
-                    <div className="event">
+                    <div className="event" style={{padding:'20px'}}>
                         <h1>UPCOMING EVENTS</h1>
                         <div className="slid">
-                    <p  onClick={handlerLeft}style={{margin:'10px',position:'absolute',top:'250px',left:'10px',color:'lightblue'}}><BsArrowLeftCircleFill size={50}
+                    <p className=" arrow haril" onClick={handlerLeft}><BsArrowLeftCircleFill size={50}
      /></p>
-                         <p  onClick={handlerRight} style={{margin:'10px',position:'absolute',top:'250px',right:'10px',color:'lightblue'}}><BsArrowRightCircleFill size={50}
+                         <p  className="arrow harir" onClick={handlerRight} ><BsArrowRightCircleFill size={50}
     /></p>
+                    
+
                 {even.length>0?
-                
-                <h1>{even[x].date}</h1>
-                :null}
+                <div className='even'>
+                <h1>{even[x].event}</h1>
+                <h1>{even[x].date}</h1></div>:null}
 
             </div>
             </div>
+            
 </div>            
             </div>
         )

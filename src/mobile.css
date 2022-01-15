@@ -80,5 +80,24 @@ margin:calc(100%-width);
     display:block;
     
 }
+.nith-service{width:80%;}
+.nith-service img{
+    height:350px;
+}
+/* .arrow{
+    top:25%;
+} */
+
+.home img{
+    height:350px;
+}
+.slid{
+    width:80%;
+    height:350px;
+}
+.slid .haril{left:12%;}
+.slid .harir{right:12%}
+.slid h1{
+margin:0px;}
 
 }

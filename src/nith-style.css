@@ -160,12 +160,17 @@ grid-template-columns:auto auto;
     background-image:url('https://static.wixstatic.com/media/7a80d103056d491895f4d6be5be211ef.jpg/v1/fill/w_1225,h_488,al_c,q_85,usm_0.66_1.00_0.01/7a80d103056d491895f4d6be5be211ef.jpg');
     background-size:cover;
     padding:100px;
-    margin:20px;
+    margin:auto;
+    /* height:50%; */
+    width: 65%;
 }
 
-.event{
+.nith{
     background-color: yellow;
-    padding:100px;
+    /* width:100%; */
+    /* padding:50px; */
+    width:100%;
+    position:relative;
     
 }
 .slid h1{
@@ -310,3 +315,51 @@ text-align: justify;}
     margin:auto;
     text-align: center;
 }
+.nith-service{
+    margin:auto;
+    border:10px solid gray;
+    width:75%;
+}
+.nith-service img{
+    width:100%;
+    height:550px;
+}
+.arrow{
+    margin:10px;
+    position:absolute;
+    top:45%;
+    color:lightblue;
+}
+.l{    left:0px;
+}
+.r{
+    right:0px;
+}
+.home{
+    width:100%;
+    position:relative;
+    margin:0px;
+}
+.home img{
+    width:100%;
+    height:550px;
+
+
+}
+.nith{
+    position:relative;
+    margin: 0px;
+    width:100%;
+}
+ .slid .haril{left:20%;}
+ .slid .harir{
+    right:20%;
+}
+.slid h1{
+    margin:auto;
+    text-align: center;
+    max-width: 50%;
+}
+/* .even{
+    max-width: 50%;
+} */
