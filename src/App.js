@@ -18,6 +18,7 @@ import Content from './components/Home/Content';
 import Committe from './components/commitee';
 import Awards from './components/awards';
 import Asset from './components/assest';
+import Certificate from './components/certificate';
 
 const App=()=>{
     return (
@@ -35,6 +36,7 @@ const App=()=>{
     <Route path="/ac" element={<Committe/>} />
     <Route path="/awards" element={<Awards/>} />
     <Route path="/assest" element={<Asset/>} />
+    <Route path="/certi" element={<Certificate/>} />
 
 
 

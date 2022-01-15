@@ -65,5 +65,20 @@ margin:calc(100%-width);
     display:block;
     text-align:center;
 }
+.carr{
+    margin:0px;
+    padding:0px;
+}
+.im img{
+    width:300px;
+    height:180px;
+}
+
+.cardss{
+    margin:0px;
+    width:80%;
+    display:block;
+    
+}
 
 }

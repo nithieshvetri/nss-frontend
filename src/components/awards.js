@@ -17,7 +17,7 @@ const Awards=()=>{
 
     const display=award.map(x=>{
         return (
-            <div className="cards" key={x.id}>
+            <div className="cardss" key={x.id}>
                 <div className="im">
                 <img src={x.image} alt="awards" />
                 </div>
@@ -28,8 +28,10 @@ const Awards=()=>{
     })
     return (
         <div className="container">
+            <div className="niw">
             <div className="carr ">
             {display}
+            </div>
             </div>
         </div>
     )
