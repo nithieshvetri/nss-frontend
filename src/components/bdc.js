@@ -20,20 +20,21 @@ console.log(data)
 const disp=data.map((val,index)=>{
 	return (
 		<div  className="c" key={index}>
-		<div className="App">
-		<table>
-			<tbody>
+		<div className="tables blood">
+		<table >
+			<thead className="text">
 			<tr>
 			<th >DATE</th>
 			<th >DONATED TO</th>
 			<th >NO OF UNITS</th>
 			<th >PHOTO</th>
 			</tr>
-			
+			</thead>
+			<tbody>
 				<tr>
 					<td >{val.date}</td>
 					<td >{val.donated_to}</td>
-					<td >{val.count}</td>
+					<td >{val.count}  UNITS</td>
 					<td ><img src={val.photo} alt="null" height="160px" width="200px" /></td>
 				</tr>
 				</tbody>
@@ -52,6 +53,12 @@ const disp=data.map((val,index)=>{
 return (
 
 	<div className="container">
+		<div className="mob">
+			<h4>DATE</h4>
+			<h4>DONATED TO</h4>
+			<h4>NUMBER OF UNITS</h4>
+			<h4>PHOTOS</h4>
+		</div>
 		<div className="card1">
 			{disp}
 		</div>

@@ -16,13 +16,15 @@ const National=()=>{
             <div key={x.id} className="c">
                 <div className="tables">
                 <table>
-                <tbody>
+                <thead>
 			<tr>
 			<th >DATE</th>
-			<th >DONATED TO</th>
+			<th >PLACE</th>
 			{/* <th >NO OF UNITS</th> */}
 			<th >PHOTO</th>
 			</tr>
+            </thead>
+            <tbody>
 			
 				<tr>
 					<td >{x.date}</td>

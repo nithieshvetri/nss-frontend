@@ -104,6 +104,28 @@ margin:calc(100%-width);
 margin:0px;}
 tr,td,th{display:block;
 border:none;
-text-align: left;}
+text-align: center;}
+.tables thead{display:none;}
+.tables tbody{
+    display:block;
+}
+.tables tr td{
+border:none;
+width:100%;
+font-weight: 700;
+}
+.tables tr td:nth-child(1),.tables tr td:nth-child(2),.tables tr td:nth-child(3){width: 100%;}
+.blood tr td:nth-child(4){width: 100%;}
+.mob{display:flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.mob h4{
+    text-align: center;
+    color:red;
+    padding:2px;
+}
 
 }

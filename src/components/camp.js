@@ -10,11 +10,11 @@ const Camp=()=>{
         Response();
     },[])
     camps.reverse();
-    // console.log(camps)
+    console.log(camps)
     const display=camps.map((x,index)=>{
         let ar=x.video.split("be/");
         let a=ar[1]
-        // console.log(ar[1])
+        console.log(ar[1])
         return (
             <div  className="card" key={index}>
             <div className="c c2"> 

@@ -10,7 +10,7 @@ const [x,setX]=useState(0)
 useEffect(()=>{
     setX(0)
     const res=async()=>{
-        const {data}=await axios.get("http://127.0.0.1:8000/api/home/");
+        const {data}=await axios.get(`http://127.0.0.1:8000/api/${props.api}/`);
         console.log(data)
         setImage(data)
     };
@@ -52,7 +52,7 @@ setX(image.length-1)
 console.log(props.width1)
 
     return (
-        <div className="home" >
+        <div className={props.classs} >
             <div>
                 <p className="arrow l" onClick={handlerLeft}><BsArrowLeftCircleFill size={50}
  /></p>

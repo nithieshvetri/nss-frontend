@@ -17,7 +17,8 @@ import National from './components/nlm';
 
 import './nith-style.css';
 import './mobile.css';
-import './st.css';
+// import './st.css';
+import Uba from './components/uba';
 
 const App=()=>{
     return (
@@ -37,6 +38,7 @@ const App=()=>{
     <Route path="/assest" element={<Asset/>} />
     <Route path="/certi" element={<Certificate/>} />
     <Route path="/nlm" element={<National/>} />
+    <Route path="/uba" element={<Uba/>} /> 
 
 
 
