@@ -17,7 +17,7 @@ const Camp=()=>{
         // console.log(ar[1])
         return (
             <div  className="card" key={index}>
-            <div className="c"> 
+            <div className="c c2"> 
             <h3 style={{color:'black',textAlign:'center'}}>{x.date}</h3>
             <div >
             <div  className="dis">

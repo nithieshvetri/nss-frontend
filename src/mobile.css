@@ -1,3 +1,6 @@
+@media screen and (max-width:850px){
+    .card3{grid-template-columns: auto;}
+}
 @media screen and (max-width:500px){
     .card1{
         width:100%;

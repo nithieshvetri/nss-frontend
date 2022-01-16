@@ -73,14 +73,14 @@
     margin:auto;
 }
 iframe{
-    /* margixn:10px; */
-    width:100%;
+    margin:10px;
+    width:90%;
     height:250px;
 }
 
 
 .talent img,video{
-    width:90%;
+    width:300px;
     height:200px
 }
 .grid1{
@@ -111,7 +111,7 @@ iframe{
 }
 
 .talent{
-    width:fit-content;
+    width:max-content;
     display:grid;
 grid-template-columns:auto auto;
     padding:10px;
@@ -125,23 +125,23 @@ grid-template-columns:auto auto;
 
 .card3{
     /* width:auto; */
-    width: fit-content;
+    width: calc((fit-content)-10%);
     display:grid;
     grid-template-columns: auto auto;
     grid-gap:2rem;
     padding:10px;
    /* background-color: chartreuse; */
-    margin:0px 125px;
+    margin:0px 100px;
 }
 
 .dis{
-    /* margin:10px; */
+    margin:10px;
     padding:10px;
     text-align: center;
 }
 
 .vid img,.vid video{
-    width:300px;
+    width:100%s;
     height:200px;
     padding: 15px
 }
