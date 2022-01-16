@@ -19,7 +19,7 @@ useEffect(()=>{
 console.log(data)
 const disp=data.map((val,index)=>{
 	return (
-		<div  className="card" key={index}>
+		<div  className="c" key={index}>
 		<div className="App">
 		<table>
 			<tbody>
@@ -50,7 +50,12 @@ const disp=data.map((val,index)=>{
 
 
 return (
-	<div>{disp}</div>
+
+	<div className="container">
+		<div className="card1">
+			{disp}
+		</div>
+	</div>
 )
 }
 

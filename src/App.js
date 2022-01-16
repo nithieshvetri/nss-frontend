@@ -6,19 +6,18 @@ import Camp from './components/camp';
 import Blood from './components/bdc';
 import Sem from './components/seminar';
 import Report from './components/reportsmag';
-import './nith-style.css';
-import './mobile.css';
-import './st.css';
-import Advisory from './components/commit';
-
 import Calender from './components/calender';
 import Volunteer from './components/volunteer';
-// import Slide from './components/Home/Slide';
 import Content from './components/Home/Content';
 import Committe from './components/commitee';
 import Awards from './components/awards';
 import Asset from './components/assest';
 import Certificate from './components/certificate';
+import National from './components/nlm';
+
+import './nith-style.css';
+import './mobile.css';
+import './st.css';
 
 const App=()=>{
     return (
@@ -37,6 +36,7 @@ const App=()=>{
     <Route path="/awards" element={<Awards/>} />
     <Route path="/assest" element={<Asset/>} />
     <Route path="/certi" element={<Certificate/>} />
+    <Route path="/nlm" element={<National/>} />
 
 
 

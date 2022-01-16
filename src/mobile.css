@@ -99,5 +99,8 @@ margin:calc(100%-width);
 .slid .harir{right:12%}
 .slid h1{
 margin:0px;}
+tr,td,th{display:block;
+border:none;
+text-align: left;}
 
 }

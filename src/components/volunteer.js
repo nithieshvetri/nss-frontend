@@ -30,9 +30,9 @@ const disp=talent.map((x,index)=>{
         </div>
 
         <div  className="vid" style={{display:'flex'}}>
-        {arr[0]=='mp4'? <video controls >
+        {arr[0]==='mp4'? <video controls >
       <source src={x.file} />
-     </video>:<img src={x.file} />}
+     </video>:<img src={x.file} alt="images" />}
      
      </div>
      <div className='niii'>
@@ -47,7 +47,7 @@ const disp=talent.map((x,index)=>{
 })
     return (
         <div className="container">
-            <div className="card1" style={{width:'33'}}>
+            <div className="card1" >
                 {disp}
             </div>
         </div>
